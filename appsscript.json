@@ -1,0 +1,38 @@
+{
+  "timeZone": "Asia/Tokyo",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Drive",
+        "serviceId": "drive",
+        "version": "v3"
+      }
+    ]
+  },
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/script.locale",
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/presentations",
+    "https://www.googleapis.com/auth/calendar.readonly"
+  ],
+  "addOns": {
+    "common": {
+      "name": "KOYOMInoSHIORI",
+      "logoUrl": "http://koyomi.castanet.tokyo/wp-content/uploads/sites/13/2025/03/koyomi24x24.png",
+      "layoutProperties": {
+        "primaryColor": "#4c8a7f"
+      },
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      },
+      "useLocaleFromApp": "true"
+    },
+    "slides": {
+      "onFileScopeGrantedTrigger": {
+        "runFunction": "onFileScopeGranted"
+      }
+    }
+  }
+}
