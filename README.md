@@ -7,7 +7,7 @@ This is a tool that incorporates Google Calendar events and creates reports such
 This is a Google Slides add-on. You can import events in Google Calendar by writing tags in the text box.
 
 # INSTALL
-Google Workspace Marcketplace
+Google Workspace Marketplace
 https://workspace.google.com/marketplace/app/koyomi_no_shiori/318688618404
 
 # Lisence
