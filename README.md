@@ -6,7 +6,7 @@ Googleスライドのアドオンです。テキストボックスにタグを�
 This is a tool that incorporates Google Calendar events and creates reports such as travel bookmarks and reports. The design is done using Google Slides, so you can design freely.
 This is a Google Slides add-on. You can import events in Google Calendar by writing tags in the text box.
 
-#INSTALL
+# INSTALL
 Google Workspace Marcketplace
 https://workspace.google.com/marketplace/app/koyomi_no_shiori/318688618404
 
